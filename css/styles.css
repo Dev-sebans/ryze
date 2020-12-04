@@ -805,3 +805,303 @@
  .logo-holder img {
      width: 60%;
  }
+ 
+ .section--inside-hero {
+     height: 960px;
+     position: relative;
+ }
+ 
+ .section--inside-hero {
+     background-color: #1c00ff;
+     padding-top: 205px;
+ }
+ 
+ .inside-hero__content {
+     position: absolute;
+     width: 100%;
+     left: 0;
+     top: 50%;
+     transform: translateY(-50%);
+     text-align: center;
+     z-index: 9;
+ }
+ 
+ .inside-hero__wrap {
+     display: flex;
+     height: 100%;
+     flex-flow: row wrap;
+     width: 100%;
+     align-items: flex-end;
+     justify-content: center;
+ }
+ 
+ .inside-hero__img img {
+     mix-blend-mode: darken;
+ }
+ 
+ .inside-hero__content h1 {
+     font-size: 96px;
+     font-weight: 900;
+     line-height: 1.12;
+     color: #fff;
+     margin-bottom: 30px;
+ }
+ 
+ .inside-hero__content p {
+     font-size: 60px;
+     color: #fff;
+     font-weight: 400;
+     margin-bottom: 100px;
+     line-height: 1.12;
+ }
+ 
+ .section--who {
+     padding: 240px 0;
+     background-image: url(../images/who-bg.png);
+     background-repeat: no-repeat;
+ }
+ 
+ .section h2 {
+     font-size: 96px;
+     font-weight: 900;
+     line-height: 1.22;
+     color: #1c00ff;
+     margin-bottom: 45px;
+ }
+ 
+ .section--book-call.section h2 {
+     color: #fff;
+ }
+ 
+ .who-content p {
+     font-size: 27px;
+     line-height: 1.12;
+     font-weight: 500;
+     color: #000;
+     margin-bottom: 25px;
+     max-width: 810px;
+ }
+ 
+ .who-content h6 {
+     font-size: 45px;
+     line-height: 1.4;
+     color: #1c00ff;
+     font-weight: 800;
+     margin-top: 45px;
+     max-width: 560px;
+ }
+ 
+ .section--curious {
+     background-color: #1c00ff;
+     position: relative;
+ }
+ 
+ .curious-img {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: flex-end;
+ }
+ 
+ .curious-wrap {
+     position: absolute;
+     width: 100%;
+     left: 0;
+     top: 50%;
+     transform: translateY(-50%);
+     z-index: 99;
+ }
+ 
+ .curious-wrap p {
+     font-size: 54px;
+     line-height: 1.12;
+     color: #fff;
+     font-weight: 400;
+     margin-bottom: 0;
+ }
+ 
+ .curious-wrap h2 {
+     color: #fff;
+     font-size: 70px;
+     margin-bottom: 60px;
+ }
+ 
+ .section--people {
+     padding: 190px 0 0;
+ }
+ 
+ .people-heading {
+     padding-bottom: 140px;
+ }
+ 
+ .section .people-heading h2 {
+     margin-bottom: 25px;
+ }
+ 
+ .people-heading p {
+     font-size: 45px;
+     font-weight: 400;
+     line-height: 1.4;
+     color: #000;
+     max-width: 1200px;
+     margin-bottom: 50px;
+ }
+ 
+ .people-heading h4 {
+     font-size: 60px;
+     color: #1c00ff;
+     font-weight: 800;
+     margin-bottom: 0;
+ }
+ 
+ .our-people__item {
+     padding: 75px 0;
+     background-color: #1c00ff;
+     background-image: url(../images/james-new-bg.png);
+     background-repeat: no-repeat;
+     background-position: right;
+     mix-blend-mode: darken;
+ }
+ 
+ .our-people__item h5 {
+     color: #fff;
+     font-size: 40px;
+     line-height: 1;
+     font-weight: 700;
+     margin-bottom: 5px;
+ }
+ 
+ .our-people__item ul {
+     display: flex;
+     flex-flow: row wrap;
+     padding: 0;
+     list-style-type: none;
+     margin-bottom: 50px;
+ }
+ 
+ .our-people__item ul li {
+     padding: 0 15px;
+     color: #fff;
+     font-size: 27px;
+     font-weight: 700;
+     font-style: italic;
+     position: relative;
+ }
+ 
+ .our-people__item ul li:first-child {
+     padding-left: 0;
+ }
+ 
+ .our-people__item ul li:first-child:after {
+     position: absolute;
+     content: '';
+     left: 100%;
+     top: 50%;
+     transform: translateY(-50%);
+     height: 27px;
+     width: 2px;
+     background-color: #fff;
+ }
+ 
+ .our-people__item ul li:last-child {
+     padding-right: 0;
+ }
+ 
+ .our-people__item p {
+     font-size: 24px;
+     line-height: 1.6;
+     color: #fff;
+     font-weight: 500;
+     margin-bottom: 50px;
+     max-width: 630px;
+ }
+ 
+ .our-people__item h6 {
+     font-size: 27px;
+     color: #fff;
+     font-weight: 700;
+     line-height: 1.12;
+     margin-bottom: 15px;
+ }
+ 
+ .our-people__item:nth-child(even) {
+     background-color: #fff;
+     background-position: left;
+ }
+ 
+ .our-people__item:nth-child(even) h5,
+ .our-people__item:nth-child(even) ul li,
+ .our-people__item:nth-child(even) h6,
+ .our-people__item:nth-child(even) p {
+     color: #000;
+ }
+ 
+ .our-people__item .col-6:last-child {
+     padding-left: 80px;
+ }
+ 
+ .our-people__item:nth-child(even) ul li:first-child:after {
+     background-color: #000;
+ }
+ 
+ .our-people__item:nth-child(even) .col-6:last-child {
+     order: 1;
+ }
+ 
+ .our-people__item:nth-child(even) .col-6:first-child {
+     order: 2;
+     padding-left: 80px;
+ }
+ 
+ .section--social {
+     padding: 190px 0;
+     background-color: #ebebec;
+     background-image: url(../images/bg-logo.png);
+     background-repeat: no-repeat;
+     background-position: center right;
+ }
+ 
+ .section--social p {
+     font-size: 45px;
+     font-weight: 400;
+     line-height: 1.4;
+     color: #000;
+     max-width: 1200px;
+     margin-bottom: 50px;
+ }
+ 
+ .section--social ul {
+     display: flex;
+     flex-flow: row wrap;
+     list-style-type: none;
+     padding-left: 0;
+     margin-top: 35px;
+ }
+ 
+ .section--social ul li {
+     margin-right: 50px;
+ }
+ 
+ .section--partners {
+     padding: 190px 0;
+ }
+ 
+ .section--partners h2 {
+     text-align: center;
+ }
+ 
+ .partners-list {
+     display: flex;
+     flex-flow: row wrap;
+     list-style-type: none;
+     padding-left: 0;
+     margin-top: 65px;
+     justify-content: center;
+ }
+ 
+ .partners-list li {
+     margin-right: 80px;
+ }
+ 
+ .partners-list li:last-child {
+     margin-right: 0;
+ }
