@@ -1,0 +1,92 @@
+.inside-hero__img img,
+.book-call__img img {
+	max-width: 100%;
+}
+@media (max-width: 1300px) {
+	.icon-pintile-holder {
+		padding: 35px;
+	}
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+	.button {
+		font-size: 16px;
+		padding: 10px 20px;
+		border: 2px solid #ffffff;
+	}
+	.button--blue {
+		border-color: #1c00ff;
+	}
+	.inside-hero__content h1 {
+		font-size: 48px;
+	}
+	.inside-hero__content p {
+		font-size: 36px;
+	}
+	.curious-wrap p {
+		font-size: 32px;
+	}
+	.curious-wrap h2 {
+		font-size: 38px;
+	}
+	.section--choose .section-title h2 {
+		font-size: 60px;
+	}
+	.ryze-features ul li {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	.section h2 {
+		font-size: 36px;
+	}
+	.book-call__img {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+	}
+	.book-call__content {
+		position: relative;
+		transform: none;
+	}
+	.section--choose {
+		padding: 80px 0px;
+	}
+	.services__list h3 {
+		padding: 30px 0px 0px 0px;
+		font-size: 28px;
+		line-height: 1.2;
+	}
+	.services__list h5 {
+		font-size: 22px;
+		padding-left: 0px;
+	}
+	.services__list p {
+		max-width: none;
+		font-size: 18px;
+	}
+	.services__list h3:after {
+		top: 0px;
+	}
+	.ryze-features ul {
+		margin-bottom: 50px;
+	}
+	.book-call__content p {
+		font-size: 24px;
+	}
+	.icon-pintile {
+		text-align: center;
+		margin: 30px 0px;
+	}
+	.icon-pintile h4 {
+		font-size: 28px;
+		margin-bottom: 10px;
+		line-height: 34px;
+	}
+	.icon-pintile .icon {
+		margin-bottom: 15px;
+	}
+	.icon-pintile a {
+		font-size: 18px;
+	}
+}
