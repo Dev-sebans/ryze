@@ -375,7 +375,7 @@
      margin-bottom: 35px;
  }
  
- .work-img__content h2 {
+ .section .work-img__content h2 {
      font-size: 48px;
      color: #fff;
      font-weight: 900;
@@ -1104,4 +1104,122 @@
  
  .partners-list li:last-child {
      margin-right: 0;
+ }
+ 
+ .section--inside-team {
+     background-image: url(../images/team-main-banner.jpg);
+     background-position: left;
+     background-repeat: no-repeat;
+ }
+ 
+ .section--inside-team .inside-hero__content .col {
+     text-align: left;
+     max-width: 700px;
+ }
+ 
+ .section--inside-team .inside-hero__wrap {
+     align-items: center;
+     justify-content: flex-end;
+     padding-right: 200px;
+ }
+ 
+ .section--inside-team .inside-hero__content p {
+     font-size: 38px;
+     margin-bottom: 60px;
+ }
+ 
+ .inside-hero__img {
+     max-width: 700px;
+     width: 100%;
+     overflow: hidden;
+ }
+ 
+ .section--inside-team .inside-hero__img img {
+     width: 100%;
+ }
+ 
+ .section--team {
+     padding: 170px 0 100px;
+ }
+ 
+ .section.section--team h2 {
+     color: #000;
+ }
+ 
+ .col--team {
+     padding: 0 20px;
+ }
+ 
+ .teams {
+     display: flex;
+     flex-flow: row wrap;
+     margin: 30px -45px 0;
+ }
+ 
+ .teams__item {
+     padding: 0 45px;
+     position: relative;
+     flex: 0 0 33.33%;
+     margin-bottom: 45px;
+     padding-bottom: 90px;
+ }
+ 
+ .teams__img {
+     position: relative;
+ }
+ 
+ .teams__img img {
+     width: 100%;
+ }
+ 
+ .teams__img:after {
+     position: absolute;
+     content: '';
+     background-color: rgba(0, 0, 0, 0.55);
+     left: 0;
+     top: 0;
+     height: 100%;
+     width: 100%;
+     display: block;
+     z-index: 99;
+ }
+ 
+ .teams__details {
+     padding: 35px 40px;
+     background-color: #ededed;
+     border-right: 12px solid #1c00ff;
+     position: absolute;
+     max-width: 350px;
+     bottom: 0;
+     width: 100%;
+     z-index: 100;
+ }
+ 
+ .teams__details h6 {
+     font-size: 30px;
+     font-weight: 700;
+     color: #1c00ff;
+     margin-bottom: 20px;
+ }
+ 
+ .teams__details p {
+     font-weight: 600;
+     color: #000000;
+ }
+ 
+ .teams__item:hover .teams__img:after {
+     display: none;
+ }
+ 
+ .teams__item:hover .teams__details {
+     background-color: #1c00ff;
+     border-right: 12px solid #000000;
+ }
+ 
+ .teams__item:hover .teams__details h6 {
+     color: #fff;
+ }
+ 
+ .teams__item:hover .teams__details p {
+     color: #fff;
  }

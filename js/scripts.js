@@ -39,7 +39,9 @@ if ($slider.length) {
 
     $slider.slick({
         arrows: false,
-        dots: false
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 5000
     });
 }
 
