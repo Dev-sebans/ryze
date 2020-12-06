@@ -52,3 +52,13 @@ $('.work-img-slider').slick({
     autoplay: true,
     autoplaySpeed: 2000
 });
+
+// AJ
+
+$('[tabtoggle]').click(function() {
+    var tab_in = $(this).attr('tabtoggle');
+    $('[tabin]').removeClass('active');
+    $('.tab-line-box--anchor').removeClass('active');
+    $('[tabin="'+ tab_in +'"]').addClass('active');
+    $(this).addClass('active')
+});

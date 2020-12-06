@@ -6,6 +6,12 @@
 	.icon-pintile-holder {
 		padding: 35px;
 	}
+	.pd-250-l-out {
+		padding: 60px 20px 20px;
+	}
+	.locations-box {
+		padding: 30px;
+	}
 }
 @media (max-width: 991px) {
 }
@@ -85,8 +91,55 @@
 	}
 	.icon-pintile .icon {
 		margin-bottom: 15px;
+		background-position: center;
 	}
 	.icon-pintile a {
 		font-size: 18px;
+	}
+	.section--grey {
+		padding: 40px 0px;
+	}
+	.pd-250-l-out h2 {
+		line-height: 56px;
+	}
+	.pd-250-l-out h4 {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.icon-anchor__in {
+		margin: 10px 0px;
+		font-size: 18px;
+	}
+	.icon--mail {
+		width: 30px;
+		height: 30px;
+	}
+	.icon--phone {
+		width: 30px;
+		height: 30px;
+	}
+	.icon-anchor__in .icon {
+		margin-right: 15px;
+	}
+	.form-panel__input-items {
+		margin: 10px 0px;
+	}
+	.cs-input--half {
+		width: 100%;
+	}
+	.cs-input--half:nth-child(odd) {
+		margin: 0px 0px 10px 0px;
+	}
+	.cs-input--half:nth-child(even) {
+		margin: 10px 0px 0px 0px;
+	}
+	.locations-box h4 {
+		font-size: 36px;
+	}
+	.tab-line-box--anchor h6 {
+		font-size: 20px;
+	}
+	.tab-line-box--anchor p {
+		font-size: 16px;
 	}
 }
