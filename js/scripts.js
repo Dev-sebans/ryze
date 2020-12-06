@@ -62,3 +62,6 @@ $('[tabtoggle]').click(function() {
     $('[tabin="'+ tab_in +'"]').addClass('active');
     $(this).addClass('active')
 });
+$('[accordion-head]').click(function() {
+    $(this).siblings('[accordion-body]').slideToggle();
+})
