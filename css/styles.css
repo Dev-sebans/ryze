@@ -322,16 +322,17 @@
      margin-bottom: 100px;
  }
  
- .services__list h3 {
+ .section .services__list h2 {
      position: relative;
      padding-left: 300px;
-     font-size: 54px;
+     font-size: 96px;
      line-height: 1;
      color: #000;
      font-weight: 900;
+     margin-bottom: 0;
  }
  
- .services__list h3:after {
+ .section .services__list h2:after {
      position: absolute;
      content: '';
      left: -15px;
