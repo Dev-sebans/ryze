@@ -54,6 +54,33 @@ $('.work-img-slider').slick({
     autoplay: true,
     autoplaySpeed: 2000
 });
+$('.carousal--blog').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: true,
+    autoplay: false,
+    autoplaySpeed: 2000,
+    responsive: [
+    {
+      breakpoint: 1300,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
 
 // AJ
 
