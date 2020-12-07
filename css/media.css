@@ -37,6 +37,11 @@
 		margin: 90px 0px 5px 0px;
 	}
 }
+@media (max-width: 1050px) {
+	.carousal--blog .slick-arrow {
+		top: -50px;
+	}
+}
 @media (max-width: 991px) {
 	.side-by-side__content-box h2 {
 		font-size: 50px;
@@ -235,7 +240,7 @@
 		padding: 20px;
 	}
 	.carousal-parent.carousal--blog {
-		margin: 20px 0px;
+		margin: 70px 0px 20px 0px;
 	}
 	.carousal--blog__image {
 		height: 500px;
@@ -270,5 +275,11 @@
 	}
 	.caroudsal--blog__item:hover .carousal--blog__button {
 		border-width: 3px;
+	}
+	.carousal--blog .slick-arrow {
+		right: 0px;
+	}
+	.carousal--blog .slick-arrow.slick-prev {
+		right: 55px;
 	}
 }
