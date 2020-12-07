@@ -21,6 +21,17 @@
 	.video-modal__image {
 		height: auto;
 	}
+	.testimonials-slider__details {
+		padding: 80px 0px 0px 0px;
+	}
+	.testimonials-slider__details:before {
+		top: 0px;
+		left: 0px;
+	}
+	.testimonials-slider__details:after {
+		top: 50px;
+		left: 0px;
+	}
 }
 @media (max-width: 991px) {
 	.side-by-side__content-box h2 {
