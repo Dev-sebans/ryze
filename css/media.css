@@ -282,4 +282,25 @@
 	.carousal--blog .slick-arrow.slick-prev {
 		right: 55px;
 	}
+	.section--blog-detail h3 {
+		font-size: 36px;
+	}
+	.section--blog-detail h4 {
+		font-size: 24px;
+	}
+	.section--blog-detail h5 {
+		font-size: 18px;
+	}
+	.section--blog-detail h6 {
+		font-size: 16px;
+	}
+	.grey-box {
+		padding: 20px;
+	}
+	.blog-about-box__item {
+		font-size: 16px;
+	}
+	.section--blog-detail .pd-250-l-out {
+		padding: 60px 0px 0px 0px;
+	}
 }

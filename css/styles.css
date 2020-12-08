@@ -1948,3 +1948,131 @@ div[accordion-head] {
 .carousal--blog .slick-arrow.slick-prev {
 	right: 81px;
 }
+.blog-description {
+	position: relative;
+	z-index: 1;
+}
+.inside-hero__overlap {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 0;
+}
+.inside-hero__overlap .inside-hero__img {
+	max-width: none;
+	height: 100%;
+}
+.inside-hero__overlap .inside-hero__img img {
+	opacity: 0.1;
+	object-fit: contain;
+	object-position: right;
+	width: 100%;
+	height: 100%;
+}
+.section--blog-banner .inside-hero__content h1 {
+	font-size: 64px;
+	line-height: 72px;
+	text-align: left;
+	font-weight: 400;
+	max-width: 1200px;
+}
+.blog-about-box {
+	text-align: left;
+}
+.blog-about-box__item {
+	font-size: 24px;
+	line-height: 36px;
+	margin: 0px 50px 0px 0px;
+	float: left;
+	color: #ffffff;
+	position: relative;
+}
+.blog-about-box__item:after {
+	content: "";
+	width: 4px;
+	height: 25px;
+	background: #ffffff;
+	position: absolute;
+	right: -23px;
+	top: 5px;
+}
+.section--blog-detail .pd-250-l-out h2 {
+	color: #1c00ff;
+}
+.section--blog-detail h3,
+.section--blog-detail h4,
+.section--blog-detail h5,
+.section--blog-detail h6 {
+	color: #000000;
+	margin: 15px 0px 20px 0px;
+	font-weight: 700;
+	width: 100%;
+	display: inline-block;
+}
+.section--blog-detail h3 {
+	font-size: 48px;
+}
+.section--blog-detail h4 {
+	font-size: 36px;
+}
+.section--blog-detail h5 {
+	font-size: 28px;
+}
+.section--blog-detail h6 {
+	font-size: 21px;
+}
+.section--blog-detail img {
+	width: 100%;
+	margin: 20px 0px;
+}
+.recent-post-box__item img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 5px;
+	margin: 0px 0px 10px 0px;
+}
+.recent-post-box__item .carousal--blog__filter-type {
+	width: 100%;
+	display: inline-block;
+	font-size: 14px;
+	margin: 5px 0px;
+}
+.grey-box {
+	background: #f2f2f2;
+	padding: 20px 40px;
+}
+.grey-box__item {
+	margin-bottom: 20px;
+}
+.grey-box__item h3 {
+	color: #bcbec0;
+}
+.recent-post-box__item h4 {
+	margin: 0px 0px 5px 0px;
+	font-size: 20px;
+}
+.recent-post-box__item .carousal--blog__date {
+	font-size: 16px;
+}
+.recent-post-box__item .carousal--blog__button {
+	margin-top: 10px;
+	max-width: 100px;
+	height: 30px;
+	font-size: 11px;
+	border: 2px solid #000;
+}
+.section--blog-detail ul {
+	padding-left: 20px;
+}
+.section--blog-detail ul li {
+	width: 100%;
+	margin: 10px 0px;
+}
+.grey-box__item__inner {
+	padding-left: 30px;
+}
