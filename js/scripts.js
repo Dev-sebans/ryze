@@ -94,3 +94,11 @@ $('[tabtoggle]').click(function() {
 $('[accordion-head]').click(function() {
     $(this).siblings('[accordion-body]').slideToggle();
 })
+
+$('.hamburger').click(function() {
+    $(this).toggleClass('active');
+    $(this).addClass('disabled');
+    setTimeout(function() {
+        $('.hamburger').removeClass('disabled');
+    }, 1000);
+})
