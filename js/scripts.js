@@ -97,8 +97,8 @@ $('[accordion-head]').click(function() {
 
 $('.hamburger').click(function() {
     $(this).toggleClass('active');
-    $(this).addClass('disabled');
+    $('.navbar-toggler').addClass('disabled');
     setTimeout(function() {
-        $('.hamburger').removeClass('disabled');
+        $('.navbar-toggler').removeClass('disabled');
     }, 1000);
 })

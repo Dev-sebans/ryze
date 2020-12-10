@@ -2097,6 +2097,9 @@ div[accordion-head] {
 	padding: 20px 20px 20px 40px;
 	background: #ffffff;
 }
+.disabled {
+	pointer-events: none !important;
+}
 
 /* NAVIGATION TOGGLER */
 
