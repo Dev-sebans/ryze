@@ -2344,3 +2344,31 @@ body.overflow-out {
 		top: 0px;
 	}
 }
+.button--svg {
+	position: relative;
+	border: 0px;
+	cursor: pointer;
+}
+.button--svg svg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+}
+.button--svg:hover {
+	background: transparent;
+	color: #ffffff;
+}
+.button--svg svg rect {
+	fill: none;
+	stroke: #ffffff;
+	stroke-width: 10;
+	stroke-dasharray: 892, 30, 900, 900;
+	stroke-dashoffset: 620;
+	transition: 0.3s linear;
+}
+.button.button--svg:hover svg rect {
+	stroke-dashoffset: 400;
+	transition: 0.3s linear;
+}
