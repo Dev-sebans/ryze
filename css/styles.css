@@ -2372,3 +2372,6 @@ body.overflow-out {
 	stroke-dashoffset: 400;
 	transition: 0.6s linear;
 }
+.button--svg.button--primary svg rect {
+	stroke: #1c00ff;
+}
