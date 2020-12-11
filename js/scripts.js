@@ -102,3 +102,6 @@ $('.hamburger').click(function() {
         $('.navbar-toggler').removeClass('disabled');
     }, 1000);
 })
+$('.navbar-toggler').click(function() {
+    $('body').toggleClass('overflow-out')
+})
