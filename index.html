@@ -416,22 +416,8 @@
     <script src="js/scripts.js"></script>
     <script src="js/bodymovin.js"></script>
     <script src="js/lottie.min.js"></script>
-    <script>
-        var container = document.getElementById("anim_container");
-        // Set up our animation
-        var animData = {
-          container: container,
-          renderer: "svg",
-          autoplay: true,
-          loop: true,
-          path: "json/loader-animation.json",
-        };
-  
-        var anim = bodymovin.loadAnimation(animData);
-        setTimeout(function () {
-          $("#anim_container").addClass("hide-loader");
-        }, 5000)
-      </script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/animation.js"></script>
 </body>
 
 </html>
