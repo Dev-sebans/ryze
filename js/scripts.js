@@ -54,6 +54,20 @@ $('.work-img-slider').slick({
     autoplay: true,
     autoplaySpeed: 2000
 });
+
+$('.col--testimonials').each(function(index, sliderWrap) {
+    var $slider = $(sliderWrap).find('.testimonials-slider');
+    var $next = $(sliderWrap).find('.next');
+    $slider.slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: false,
+        nextArrow: $next
+    });
+});
+
 $('.carousal--blog').slick({
     infinite: true,
     slidesToShow: 3,
@@ -62,23 +76,19 @@ $('.carousal--blog').slick({
     dots: true,
     autoplay: true,
     autoplaySpeed: 2000,
-    responsive: [
-    {
-      breakpoint: 1200,
-      settings: {
-        slidesToShow: 2,
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 1,
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
+    responsive: [{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+    ]
 });
 
 
@@ -88,7 +98,7 @@ $('[tabtoggle]').click(function() {
     var tab_in = $(this).attr('tabtoggle');
     $('[tabin]').removeClass('active');
     $('.tab-line-box--anchor').removeClass('active');
-    $('[tabin="'+ tab_in +'"]').addClass('active');
+    $('[tabin="' + tab_in + '"]').addClass('active');
     $(this).addClass('active')
 });
 $('[accordion-head]').click(function() {

@@ -286,6 +286,8 @@ a:hover {
     padding: 30px 50px;
     display: inline-block;
     transition: 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
 }
 
 .button:hover {
@@ -546,26 +548,58 @@ a:hover {
     position: relative;
 }
 
-.testimonials-slider__details:after {
+.col--testimonials {
+    position: relative;
+}
+
+.col--testimonials:after {
     position: absolute;
     content: "";
     right: 105%;
     width: 400px;
     height: 12px;
-    top: 105px;
+    top: 50%;
+    transform: translateY(-50%);
     background-color: #000;
 }
 
-.testimonials-slider__details:before {
+.col--testimonials:before {
     position: absolute;
     content: "";
     right: 105%;
-    top: 145px;
+    top: 60%;
+    transform: translateY(-50%);
     width: 60px;
     height: 38px;
     background-image: url(../images/qoutes.png);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.col--testimonials .next {
+    position: absolute;
+    right: 100px;
+    top: 0;
+    z-index: 9999;
+    border-radius: 0;
+}
+
+.col--testimonials .next:after {
+    position: absolute;
+    content: '';
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 120px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/arrow-right.png);
+}
+
+.col--testimonials .next:focus,
+.col--testimonials .next:hover {
+    outline: 0;
 }
 
 .section--blog {
