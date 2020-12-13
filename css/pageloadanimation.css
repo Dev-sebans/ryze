@@ -1,0 +1,34 @@
+#anim_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    top: 0px;
+    left: 0px;
+    background: #fff;
+    text-align: center;
+    align-items: center;
+  }
+  #anim_container svg {
+    height: 400px !important;
+    width: 400px !important;
+    margin: 0 auto;
+  }
+  
+  #anim_container.hide-loader {
+    display: none !important;
+  }
+  
+  @media (max-width: 767px) {
+   
+    #anim_container {
+      transform: scale(2.5);
+    }
+    #anim_container svg {
+        height: 100% !important;
+        width: 100% !important;
+        margin: 0 auto;
+      }
+  }
+  

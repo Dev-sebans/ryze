@@ -12,10 +12,13 @@
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/pageloadanimation.css">
     <title>Ryze</title>
 </head>
 
 <body>
+    <div id="anim_container"></div>
+
     <header class="header">
         <div class="container container--half-bleed">
             <nav class="navbar navbar-light amber lighten-4 mb-4">
@@ -411,6 +414,24 @@
     </script>
     <script type="text/javascript" src="js/slick.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/bodymovin.js"></script>
+    <script src="js/lottie.min.js"></script>
+    <script>
+        var container = document.getElementById("anim_container");
+        // Set up our animation
+        var animData = {
+          container: container,
+          renderer: "svg",
+          autoplay: true,
+          loop: true,
+          path: "json/loader-animation.json",
+        };
+  
+        var anim = bodymovin.loadAnimation(animData);
+        setTimeout(function () {
+          $("#anim_container").addClass("hide-loader");
+        }, 5000)
+      </script>
 </body>
 
 </html>
