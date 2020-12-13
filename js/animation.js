@@ -129,6 +129,22 @@ ScrollReveal().reveal(".teams__item", {
   easing: "cubic-bezier(0.32, 0.37, 0.73, 0.76)",
 });
 
+ScrollReveal().reveal(".our-people__img img", {
+  delay: 0,
+  distance: "60px",
+  origin: "right",
+  duration: 1000,
+  easing: "cubic-bezier(0.32, 0.37, 0.73, 0.76)",
+});
+
+ScrollReveal().reveal(".who-img img", {
+  delay: 0,
+  distance: "60px",
+  origin: "left",
+  duration: 1000,
+  easing: "cubic-bezier(0.32, 0.37, 0.73, 0.76)",
+});
+
 //Clean
 
 ScrollReveal().clean(".work-slider__item", ".work-img__content ul li");
