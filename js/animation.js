@@ -1,3 +1,6 @@
+
+
+
 var container = document.getElementById("anim_container");
 // Set up our animation
 var animData = {
@@ -114,7 +117,6 @@ ScrollReveal().reveal(".logo-holder img", {
 ScrollReveal().reveal(".button", {
   delay: 0,
   origin: "top",
-  duration: 1000,
   easing: "cubic-bezier(0.32, 0.37, 0.73, 0.76)",
   opacity: 0.3,
   scale: 0.7,
@@ -160,12 +162,18 @@ ScrollReveal().reveal(".tools-block__item img", {
   scale: 0.5,
 });
 
-
+ScrollReveal().reveal(".down-arrow img", {
+  delay: 0,
+  distance: "60px",
+  origin: "bottom",
+  duration: 1000,
+  easing: "cubic-bezier(0.32, 0.37, 0.73, 0.76)",
+  scale: 0.5,
+});
 
 //Clean
-
-ScrollReveal().clean(".work-slider__item", ".work-img__content ul li");
+ScrollReveal().clean(".work-slider__item");
 ScrollReveal().clean(".work-img__content ul li");
 ScrollReveal().clean(".work-img__content .button");
-ScrollReveal().clean(".teams__details p");
 ScrollReveal().clean(".tab-line-box a");
+ScrollReveal().clean(".testimonials-slider__details p");
